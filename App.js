@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Image source={require("./assets/mona.png")} />        
+        <Image source={require("./assets/mona.png")} />
       </View>
       <StatusBar style="auto" />
     </View>
@@ -16,6 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    // change me to another color: like pink, blue, purple, red
     backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
